@@ -1,0 +1,212 @@
+.header .top{
+    height: 26px;
+    background: #f1f1f1;
+    color: #484848;
+    font-size: 12px;
+    border-top: 1px solid #B6B4B6;
+    border-bottom: 1px solid #E2E2E2;
+}
+.header li{
+    float: left;
+}
+.header a {
+    color:#484848;
+}
+.header .top li {
+    line-height: 24px;
+}
+.header ul.fl li:nth-child(1){
+    position: relative;
+    cursor:pointer;
+}
+.header ul.fl li:nth-of-type(1) i{
+    padding: 0 7px;  
+}
+.header ul.fl li:nth-of-type(2) i{
+    padding: 0 4px 0 11px;
+}
+.header ul.fl .code2D{
+    position: absolute;
+    width: 301px;
+    top: 26px;
+    left: 5px;
+    display:none;
+}
+.header ul.fl li:nth-child(1):hover i{
+    color:rgb(70, 91, 144);
+}
+.header ul.fl li:nth-child(1):hover .code2D{
+    display: block;
+}
+.header ul li a:hover {
+    color:#666666;
+}
+.header ul.fl .code2D div{
+    float: left;
+    height: 188px;
+    background: #fff;
+    text-align: center;
+    border: 1px solid #e1e1e1;
+    border-top: 0;
+}
+.header ul.fl .code2D div:nth-of-type(1){
+    width: 151px;
+}
+.header ul.fl .code2D div:nth-of-type(2){
+    width: 150px;
+    border-left: 0;
+}
+.header ul.fl .code2D div img{
+    width:100px;
+    height: 100px;
+    margin-bottom: 8px;
+}
+.header ul.fl .code2D div p{
+    text-align: center;
+}
+.header ul.fl .code2D div p:nth-of-type(1){
+    line-height: 36px;
+    color:#333333;
+}
+.header ul.fl .code2D div p:nth-of-type(2){
+    color:#666666;
+    line-height: 19px;
+}
+.header ul.fr li:nth-of-type(1) span{
+    border-right: 1px solid #F1C38F;
+    box-shadow:1px 0 0 0  #488EC5;
+}
+.header ul.fr li:nth-of-type(1) a{
+    margin-right: 10px;
+}
+.header ul.fr li:nth-of-type(2) a{
+    margin:0 11px 9px;
+}
+.header ul.fr li:nth-of-type(4){
+    margin-left: 10px;
+}
+.header ul.fr li:nth-of-type(4) a{
+    margin:0 8px 11px;
+}
+.header ul.fr li:nth-of-type(4) i{
+    margin-right: 11px;
+}
+.header ul.fr li:nth-of-type(5) a{
+    margin:0 8px 11px;
+}
+.header ul.fr li:nth-of-type(6) a{
+    margin:0 16px 17px;
+}
+.header ul.fr li:nth-of-type(7) i{
+    margin:0 15px 8px;
+}
+.header ul.fr i{
+    color:#90A1C3;
+    line-height: 24px;
+}
+.header .search{
+    height: 86px;
+    padding: 11px 0 0 4px;
+}
+.header .search h1{
+    float: left;
+    width: 318px;
+    height: 100%;
+    background: url(../img/logo.png) no-repeat;
+}
+.header .search h1 a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-indent: -9999em;
+}
+.header .search div{
+    float: left;
+    margin-left: 46px;
+}
+.header .search div input{
+    margin-top: 7px;
+    height: 34px;
+    line-height: 30px;
+    font-size: 12px;
+}
+.header .search div input:nth-child(1){
+    width: 340px;
+    border: 2px solid #f60;
+    padding-left: 6px;
+    color:#B7B7B7;
+}
+.header .search div input:nth-child(2){
+    width: 98px;
+    background: #f60;
+    border-radius:0 2px 2px 0 ;
+    color:#FFFFFF;
+}
+.header .search ul{
+    height: 34px;
+}
+.header .search li span a{
+    margin: 0 15px;
+    color:#767676;
+}
+.header .search li span{
+    font-size: 9px;
+    line-height: 12px;
+    border-right: 2px solid #767676;
+}
+.header .search li .sp_last{
+    border: 0;
+}
+
+main nav{
+    background: #10286C;
+}
+main nav>div>ul>li{
+    float: left;
+    text-align: center;
+}
+main nav>div>ul>li>a{
+    display: block;
+    width: 100%;
+    font-size: 12px;
+    color:#FFFFFF;
+    line-height: 40px;
+}
+main nav>div>ul.fl .l0{
+    width: 178px;
+    margin-right: 11px;
+    position: relative;
+}
+main nav>div>ul.fl .l0 .icon-angle-down{
+    margin-left: 16px;
+}
+main nav>div>ul.fl>li:nth-of-type(2){
+    width: 68px;
+}
+main nav>div>ul.fl>li:nth-of-type(3){
+    width: 96px;
+}
+main nav>div>ul.fl>li:nth-of-type(4){
+    width: 82px;
+}
+main nav>div>ul.fl>li:nth-of-type(5){
+    width: 82px;
+}
+main nav>div>ul.fl>li:nth-of-type(6){
+    width: 96px;
+}
+main nav>div>ul.fr>li:nth-of-type(1){
+    width: 116px;
+}
+main nav>div>ul.fr>li:nth-of-type(2){
+    width: 114px;
+}
+main nav>div>ul .all{
+    float: left;
+    position: absolute;
+    top: 40px;
+    left: 0;
+}
+main nav>div>ul .all li{
+    text-align: left;
+}
